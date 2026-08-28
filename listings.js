@@ -17,7 +17,7 @@
       address:"1755 Baltimore Pike, Cumberland Township, PA 17325",
       township:"Cumberland", price:525000,
       beds:4, baths:2, sqft:2400, acres:8.2,
-      grad:"linear-gradient(135deg,#9a3324,#c14a34)",
+      grad:"linear-gradient(135deg,#1d4ed8,#2563eb)",
       desc:"A handsome 1890s brick farmhouse with original hardwood floors, a wraparound porch, and a restored bank barn. Eight-plus acres of gently rolling pasture bordered by mature hedgerow, minutes from downtown Gettysburg.",
       lat:28, lng:22
     },
@@ -27,7 +27,7 @@
       address:"62 Marsh Creek Rd, Straban Township, PA 17325",
       township:"Straban", price:215000,
       beds:0, baths:0, sqft:0, acres:38,
-      grad:"linear-gradient(135deg,#5c6f3e,#8fae5c)",
+      grad:"linear-gradient(135deg,#059669,#34d399)",
       desc:"Thirty-eight acres of mostly tillable ground along Marsh Creek, currently leased for row crops. Road frontage, public water available at the road, and a soil map on file showing strong Class II farmland.",
       lat:52, lng:62
     },
@@ -37,7 +37,7 @@
       address:"1420 Fairfield Rd, Cumberland Township, PA 17325",
       township:"Cumberland", price:649000,
       beds:4, baths:2.5, sqft:2850, acres:12.4,
-      grad:"linear-gradient(135deg,#d7a340,#a97a1f)",
+      grad:"linear-gradient(135deg,#2563eb,#1d4ed8)",
       desc:"A well-kept 1970s farmhouse updated top to bottom, with a 40x60 pole barn, fenced pasture, and a spring-fed pond. Long been run as a small cattle operation; equally suited to a hobby farm or horse property.",
       lat:20, lng:38
     },
@@ -47,7 +47,7 @@
       address:"980 Chambersburg Pike, Cumberland Township, PA 17325",
       township:"Cumberland", price:349900,
       beds:3, baths:2, sqft:1680, acres:0.6,
-      grad:"linear-gradient(135deg,#4d5a5e,#7c8b8f)",
+      grad:"linear-gradient(135deg,#3f3f46,#71717a)",
       desc:"A move-in-ready cottage a short walk from Seminary Ridge, with an updated kitchen, screened porch, and a level, fenced back yard. Ideal starter home or in-town pied-a-terre.",
       lat:34, lng:18
     },
@@ -57,7 +57,7 @@
       address:"215 Rock Creek Church Rd, Straban Township, PA 17325",
       township:"Straban", price:180000,
       beds:0, baths:0, sqft:0, acres:45,
-      grad:"linear-gradient(135deg,#8fae5c,#5c6f3e)",
+      grad:"linear-gradient(135deg,#047857,#059669)",
       desc:"Forty-five acres of fenced pasture along Rock Creek with a run-in shed and gravity-fed water. Long history as grazing ground for a beef cattle herd; also suitable for hay or a future homesite.",
       lat:58, lng:74
     },
@@ -67,7 +67,7 @@
       address:"4110 York Rd, Franklin Township, PA 17325",
       township:"Franklin", price:875000,
       beds:4, baths:3, sqft:3200, acres:60,
-      grad:"linear-gradient(135deg,#a97a1f,#d7a340)",
+      grad:"linear-gradient(135deg,#d97706,#f59e0b)",
       desc:"A sixty-acre producing apple and peach orchard with a renovated farmhouse, cold storage building, and roadside stand. A rare turn-key opportunity to continue an established Adams County orchard operation.",
       lat:70, lng:30
     },
@@ -77,7 +77,7 @@
       address:"310 Herr's Ridge Rd, Franklin Township, PA 17325",
       township:"Franklin", price:795000,
       beds:5, baths:3, sqft:3600, acres:22,
-      grad:"linear-gradient(135deg,#6f2015,#9a3324)",
+      grad:"linear-gradient(135deg,#0c0c0c,#27272a)",
       desc:"A stone-and-frame homestead dating to 1852, lovingly maintained through six generations. Original summer kitchen, restored bank barn, twenty-two acres, and documented Civil War-era provenance.",
       lat:78, lng:44
     },
@@ -87,7 +87,7 @@
       address:"0 Table Rock Rd, Franklin Township, PA 17325",
       township:"Franklin", price:129000,
       beds:0, baths:0, sqft:0, acres:5.5,
-      grad:"linear-gradient(135deg,#d7a340,#f2d98f)",
+      grad:"linear-gradient(135deg,#2563eb,#93c5fd)",
       desc:"A wooded 5.5-acre building lot with long-range views toward South Mountain. Perc-approved for a conventional septic system; electric at the road. A quiet, buildable spot minutes from Gettysburg.",
       lat:86, lng:56
     }
@@ -110,7 +110,7 @@
     acres:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l7 7M4 4h5M4 4v5"/><path d="M20 20l-7-7M20 20h-5M20 20v-5"/><path d="M14 4l-4 4M4 14l4 4"/></svg>'
   };
 
-  var TYPE_COLOR = { home:"#9a3324", farm:"#5c6f3e", land:"#d7a340", historic:"#4d5a5e" };
+  var TYPE_COLOR = { home:"#2563eb", farm:"#059669", land:"#d97706", historic:"#3f3f46" };
 
   function specsHTML(l){
     var parts = [];
@@ -315,9 +315,9 @@
 
   function galleryTiles(l){
     var shades = [l.grad,
-      "linear-gradient(135deg,#e5d5ab,#d7a340)",
-      "linear-gradient(135deg,#7c8b8f,#4d5a5e)",
-      "linear-gradient(135deg,#f2d98f,#a97a1f)"];
+      "linear-gradient(135deg,#dbeafe,#2563eb)",
+      "linear-gradient(135deg,#a1a1aa,#3f3f46)",
+      "linear-gradient(135deg,#bfdbfe,#1d4ed8)"];
     return (
       '<div class="modal-gallery-main" style="background:'+shades[0]+';"></div>' +
       '<div style="background:'+shades[1]+';"></div>' +
