@@ -14,17 +14,17 @@
     {
       id:1, type:"historic", typeLabel:"Historic Home", status:"active",
       title:"Baltimore Pike Brick Farmhouse (c.1890)",
-      address:"1755 Baltimore Pike, Cumberland Township, PA 17325",
+      address:"1755 Baltimore Pike, North Ridge, PA 00000",
       township:"Cumberland", price:525000,
       beds:4, baths:2, sqft:2400, acres:8.2,
-      grad:"linear-gradient(135deg,#1d4ed8,#2563eb)",
+      grad:"linear-gradient(135deg,#155539,#1f6b4a)",
       desc:"A handsome 1890s brick farmhouse with original hardwood floors, a wraparound porch, and a restored bank barn. Eight-plus acres of gently rolling pasture bordered by mature hedgerow, minutes from downtown Gettysburg.",
       lat:28, lng:22
     },
     {
       id:2, type:"land", typeLabel:"Land / Acreage", status:"active",
       title:"Marsh Creek Land Parcel",
-      address:"62 Marsh Creek Rd, Straban Township, PA 17325",
+      address:"62 Marsh Creek Rd, Mill Creek, PA 00000",
       township:"Straban", price:215000,
       beds:0, baths:0, sqft:0, acres:38,
       grad:"linear-gradient(135deg,#059669,#34d399)",
@@ -34,17 +34,17 @@
     {
       id:3, type:"farm", typeLabel:"Working Farm", status:"active",
       title:"Wheatland Farmhouse & Outbuildings",
-      address:"1420 Fairfield Rd, Cumberland Township, PA 17325",
+      address:"1420 Fairfield Rd, North Ridge, PA 00000",
       township:"Cumberland", price:649000,
       beds:4, baths:2.5, sqft:2850, acres:12.4,
-      grad:"linear-gradient(135deg,#2563eb,#1d4ed8)",
+      grad:"linear-gradient(135deg,#1f6b4a,#155539)",
       desc:"A well-kept 1970s farmhouse updated top to bottom, with a 40x60 pole barn, fenced pasture, and a spring-fed pond. Long been run as a small cattle operation; equally suited to a hobby farm or horse property.",
       lat:20, lng:38
     },
     {
       id:4, type:"home", typeLabel:"Home", status:"active",
       title:"Seminary Ridge Cottage",
-      address:"980 Chambersburg Pike, Cumberland Township, PA 17325",
+      address:"980 Chambersburg Pike, North Ridge, PA 00000",
       township:"Cumberland", price:349900,
       beds:3, baths:2, sqft:1680, acres:0.6,
       grad:"linear-gradient(135deg,#3f3f46,#71717a)",
@@ -54,7 +54,7 @@
     {
       id:5, type:"land", typeLabel:"Land / Acreage", status:"active",
       title:"Rock Creek Grazing Land",
-      address:"215 Rock Creek Church Rd, Straban Township, PA 17325",
+      address:"215 Rock Creek Church Rd, Mill Creek, PA 00000",
       township:"Straban", price:180000,
       beds:0, baths:0, sqft:0, acres:45,
       grad:"linear-gradient(135deg,#047857,#059669)",
@@ -64,7 +64,7 @@
     {
       id:6, type:"farm", typeLabel:"Working Farm", status:"pending",
       title:"Oak Ridge Orchard Farm",
-      address:"4110 York Rd, Franklin Township, PA 17325",
+      address:"4110 York Rd, Oak Hollow, PA 00000",
       township:"Franklin", price:875000,
       beds:4, baths:3, sqft:3200, acres:60,
       grad:"linear-gradient(135deg,#d97706,#f59e0b)",
@@ -74,7 +74,7 @@
     {
       id:7, type:"historic", typeLabel:"Historic Home", status:"active",
       title:"The Herr Homestead (c.1852)",
-      address:"310 Herr's Ridge Rd, Franklin Township, PA 17325",
+      address:"310 Herr's Ridge Rd, Oak Hollow, PA 00000",
       township:"Franklin", price:795000,
       beds:5, baths:3, sqft:3600, acres:22,
       grad:"linear-gradient(135deg,#0c0c0c,#27272a)",
@@ -84,10 +84,10 @@
     {
       id:8, type:"land", typeLabel:"Land / Acreage", status:"new",
       title:"Table Rock View Lot",
-      address:"0 Table Rock Rd, Franklin Township, PA 17325",
+      address:"0 Table Rock Rd, Oak Hollow, PA 00000",
       township:"Franklin", price:129000,
       beds:0, baths:0, sqft:0, acres:5.5,
-      grad:"linear-gradient(135deg,#2563eb,#93c5fd)",
+      grad:"linear-gradient(135deg,#1f6b4a,#9fd5bb)",
       desc:"A wooded 5.5-acre building lot with long-range views toward South Mountain. Perc-approved for a conventional septic system; electric at the road. A quiet, buildable spot minutes from Gettysburg.",
       lat:86, lng:56
     }
@@ -110,7 +110,7 @@
     acres:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l7 7M4 4h5M4 4v5"/><path d="M20 20l-7-7M20 20h-5M20 20v-5"/><path d="M14 4l-4 4M4 14l4 4"/></svg>'
   };
 
-  var TYPE_COLOR = { home:"#2563eb", farm:"#059669", land:"#d97706", historic:"#3f3f46" };
+  var TYPE_COLOR = { home:"#1f6b4a", farm:"#059669", land:"#d97706", historic:"#3f3f46" };
 
   function specsHTML(l){
     var parts = [];
@@ -315,9 +315,9 @@
 
   function galleryTiles(l){
     var shades = [l.grad,
-      "linear-gradient(135deg,#dbeafe,#2563eb)",
+      "linear-gradient(135deg,#dbeafe,#1f6b4a)",
       "linear-gradient(135deg,#a1a1aa,#3f3f46)",
-      "linear-gradient(135deg,#bfdbfe,#1d4ed8)"];
+      "linear-gradient(135deg,#bfdbfe,#155539)"];
     return (
       '<div class="modal-gallery-main" style="background:'+shades[0]+';"></div>' +
       '<div style="background:'+shades[1]+';"></div>' +
