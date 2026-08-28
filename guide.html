@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2563eb">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <title>Land Buyer's Guide | Buying Acreage Near Gettysburg, PA | Keystone</title>
 <meta name="description" content="A plain-language guide to buying land in Adams County, PA — wells, septic, perc tests, easements and land loans — plus loan and pre-qualification tools from Keystone.">
 
@@ -10,10 +12,18 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Land Buyer's Guide | Buying Acreage Near Gettysburg, PA">
 <meta property="og:description" content="Wells, septic, perc tests, easements and land loans explained — with a land-loan estimator, pre-qualification tool and call scheduler for Gettysburg-area buyers.">
+<meta property="og:site_name" content="Keystone Homes & Land">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/guide.html">
+<meta property="og:image" content="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Land Buyer's Guide | Buying Acreage Near Gettysburg, PA">
+<meta name="twitter:description" content="Wells, septic, perc tests, easements and land loans explained — with a land-loan estimator, pre-qualification tool and call scheduler for Gettysburg-area buyers.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@500&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 
 <script type="application/ld+json">
@@ -23,7 +33,7 @@
   "@id":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/#agency",
   "name":"Keystone Homes & Land",
   "url":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/guide.html",
-  "image":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/preview.jpg",
+  "image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
   "telephone":"+1-717-555-0455",
   "email":"land@keystonehomesandland.test",
   "priceRange":"$$",
@@ -62,6 +72,19 @@
   ]
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"How much land do I need for a house and a well and septic?","acceptedAnswer":{"@type":"Answer","text":"It depends on the township's minimum lot size and the results of the perc test, but for a conventional on-lot septic system in rural Adams County, buyers commonly look at one to two acres or more."}},
+    {"@type":"Question","name":"What's a perc test and who pays for it?","acceptedAnswer":{"@type":"Answer","text":"A percolation test checks whether the soil will absorb septic effluent and where a system can go. On raw land it's usually done as a buyer contingency, and the buyer typically pays."}},
+    {"@type":"Question","name":"Can I get a normal mortgage on raw land?","acceptedAnswer":{"@type":"Answer","text":"Often not a standard 30-year mortgage. Land and farm purchases usually run through a land loan, construction loan or farm-credit lender, with a larger down payment."}},
+    {"@type":"Question","name":"What is Act 319 clean and green?","acceptedAnswer":{"@type":"Answer","text":"It's a Pennsylvania program that taxes qualifying farm and forest land at its use value instead of market value. Subdividing or changing the use can trigger a rollback tax."}}
+  ]
+}
+</script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to main content</a>
@@ -71,10 +94,9 @@
   <div class="header-inner">
     <a href="index.html" class="brand" aria-label="Keystone Homes & Land, home">
       <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-        <path d="M24 4 L44 20 V44 H4 V20 Z" fill="#9a3324"/>
-        <path d="M24 4 L44 20 H4 Z" fill="#6f2015"/>
-        <rect x="19" y="28" width="10" height="16" fill="#f2d98f"/>
-        <circle cx="24" cy="18" r="3.4" fill="#f2d98f"/>
+        <rect width="48" height="48" rx="12" fill="#0c0c0c"/>
+        <path d="M24 10 L40 22 V38 H8 V22 Z" fill="#2563eb"/>
+        <rect x="20" y="26" width="8" height="12" fill="#fafafa"/>
       </svg>
       <span class="brand-text">
         <strong>Keystone Homes &amp; Land</strong>
@@ -98,12 +120,12 @@
       <a class="btn btn-primary btn-sm" href="#schedule">Book a Call</a>
     </div>
 
-    <button class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+    <button type="button" class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 
-  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
     <a href="index.html">Home</a>
     <a href="listings.html">Listings</a>
     <a href="areas.html">Areas We Serve</a>
@@ -126,6 +148,7 @@
 <!-- ============================= PAGE HERO ============================= -->
 <section class="page-hero">
   <div class="page-hero-inner">
+    <p class="hero-brand">Keystone Homes &amp; Land</p>
     <p class="hero-eyebrow">Buying Land in Adams County</p>
     <h1>The Land Buyer's Guide <em>for Gettysburg &amp; Adams County</em></h1>
     <p>Buying raw land or a small farm isn't like buying a house in town. Wells, septic, perc tests, easements and land loans all come into play. Here's the plain-language version — plus the tools to run your numbers.</p>
@@ -309,22 +332,22 @@
         <h2>Land-buying FAQs</h2>
       </div>
       <div class="faq-list reveal">
-        <div class="faq-item">
-          <h3>How much land do I need for a house and a well and septic?</h3>
+        <details class="faq-item">
+          <summary>How much land do I need for a house and a well and septic?</summary>
           <p>It depends on the township's minimum lot size and the results of the perc test, but for a conventional on-lot septic system in rural Adams County, buyers commonly look at one to two acres or more. Our agents can tell you what a specific township requires.</p>
-        </div>
-        <div class="faq-item">
-          <h3>What's a perc test and who pays for it?</h3>
+        </details>
+        <details class="faq-item">
+          <summary>What's a perc test and who pays for it?</summary>
           <p>A percolation test checks whether the soil will absorb septic effluent and where a system can go. On raw land it's usually done as a buyer contingency, and the buyer typically pays — though on some listings the seller has already had it done. Either way, don't skip it.</p>
-        </div>
-        <div class="faq-item">
-          <h3>Can I get a normal mortgage on raw land?</h3>
+        </details>
+        <details class="faq-item">
+          <summary>Can I get a normal mortgage on raw land?</summary>
           <p>Often not a standard 30-year mortgage. Land and farm purchases usually run through a land loan, construction loan or farm-credit lender, with a larger down payment. We'll connect you with local lenders who do this every day.</p>
-        </div>
-        <div class="faq-item">
-          <h3>What is Act 319 clean and green?</h3>
+        </details>
+        <details class="faq-item">
+          <summary>What is Act 319 clean and green?</summary>
           <p>It's a Pennsylvania program that taxes qualifying farm and forest land at its use value instead of market value. It saves money annually, but subdividing or changing the use can trigger a rollback tax. We flag it on any enrolled parcel.</p>
-        </div>
+        </details>
       </div>
     </div>
   </section>
@@ -351,10 +374,9 @@
       <div>
         <div class="footer-brand">
           <svg width="34" height="34" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-            <path d="M24 4 L44 20 V44 H4 V20 Z" fill="#9a3324"/>
-            <path d="M24 4 L44 20 H4 Z" fill="#6f2015"/>
-            <rect x="19" y="28" width="10" height="16" fill="#f2d98f"/>
-            <circle cx="24" cy="18" r="3.4" fill="#f2d98f"/>
+            <rect width="48" height="48" rx="12" fill="#2563eb"/>
+            <path d="M24 10 L40 22 V38 H8 V22 Z" fill="#0c0c0c"/>
+            <rect x="20" y="26" width="8" height="12" fill="#fafafa"/>
           </svg>
           <strong>Keystone Homes &amp; Land</strong>
         </div>
@@ -366,7 +388,7 @@
         </div>
       </div>
       <div>
-        <h5>Office</h5>
+        <h2 class="footer-heading">Office</h2>
         <address>
           Keystone Homes &amp; Land<br>
           455 Old Harrisburg Road<br>
@@ -376,11 +398,11 @@
         </address>
       </div>
       <div>
-        <h5>Hours</h5>
+        <h2 class="footer-heading">Hours</h2>
         <p>Mon–Fri: 8:30am – 5:30pm<br>Saturday: 9:00am – 1:00pm<br>Sunday: By appointment</p>
       </div>
       <div>
-        <h5>Quick Links</h5>
+        <h2 class="footer-heading">Quick links</h2>
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="listings.html">Listings</a></li>
@@ -403,17 +425,17 @@
 </footer>
 
 <!-- ============================= CHAT WIDGET (SHARED) ============================= -->
-<button class="chat-fab" id="chatFab" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatWidget">
+<button type="button" class="chat-fab" id="chatFab" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatWidget">
   <svg viewBox="0 0 24 24" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
 </button>
-<div class="chat-widget" id="chatWidget" role="dialog" aria-label="Keystone chat assistant" aria-hidden="true">
+<div class="chat-widget" id="chatWidget" role="dialog" aria-modal="true" aria-labelledby="chatTitle" aria-hidden="true" hidden>
   <div class="chat-head">
-    <div><strong>Keystone Assistant</strong><br><span>Usually replies in minutes</span></div>
-    <button class="chat-close" id="chatCloseBtn" aria-label="Close chat">
+    <div><strong id="chatTitle">Keystone Assistant</strong><br><span>Usually replies in minutes</span></div>
+    <button type="button" class="chat-close" id="chatCloseBtn" aria-label="Close chat">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
   </div>
-  <div class="chat-body" id="chatBody">
+  <div class="chat-body" id="chatBody" aria-live="polite" aria-relevant="additions">
     <div class="chat-msg bot">Hi! I'm the Keystone concept assistant. Ask me about listings, financing, or booking a tour.</div>
   </div>
   <div class="chat-quick" id="chatQuick">
@@ -424,7 +446,7 @@
   </div>
 </div>
 
-<a href="#" class="concept-badge">Concept · Ridges &amp; Valleys Studio</a>
+<a href="https://ridgesandvalleys.com" class="concept-badge" rel="noopener">Concept · Ridges &amp; Valleys Studio</a>
 
 <script src="main.js" defer></script>
 <script src="guide.js" defer></script>
