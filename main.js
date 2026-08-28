@@ -77,8 +77,8 @@
   var chatQuick = document.getElementById("chatQuick");
 
   var REPLIES = {
-    land: {label:"Land prices?", reply:"Right now our land parcels range from about $129,000 for a 5.5-acre wooded lot near Table Rock up to $215,000 for 38 tillable acres near Marsh Creek. Head to the Listings page and filter by 'Land' to see them all."},
-    historic: {label:"Historic homes?", reply:"We currently have two historic properties listed — an 1852 stone homestead in Franklin Township and an 1890s brick farmhouse in Cumberland Township. Both come with a bit of Adams County history attached."},
+    land: {label:"Land prices?", reply:"Sample land parcels in this demo range from about $129,000 to $215,000. Open Listings and filter by Land — numbers are fictional."},
+    historic: {label:"Historic homes?", reply:"This concept includes sample historic-style listings. Browse Listings or book a demo showing from the homepage."},
     tour: {label:"Book a tour", reply:"Use the demo showing scheduler on the homepage — pick a sample home, date and time slot. Nothing is emailed; it's a UX demo only."},
     financing: {label:"Financing help?", reply:"Open the Guide page for sample loan and pre-qualification tools, or use the homepage payment and value estimators for quick demos."}
   };
