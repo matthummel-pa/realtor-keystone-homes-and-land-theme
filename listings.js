@@ -4,7 +4,7 @@
    - Grid / map toggle + pins
    - Save hearts, detail modal
    - In-modal land-loan / mortgage estimate
-   - Reads ?type=&price=&acreage=&township= from the home hero search
+   - Reads ?type=&price=&acreage=&township= from the home search form
    ========================================================================= */
 (function(){
   "use strict";

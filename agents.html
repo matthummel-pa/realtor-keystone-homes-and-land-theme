@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#9a3324">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <title>Our Agents | Local Land &amp; Farm Realtors in Gettysburg, PA</title>
 <meta name="description" content="Meet the Keystone Homes & Land team — licensed farm, land and historic-property agents who grew up in Adams County and know the Gettysburg, PA countryside.">
 
@@ -10,10 +12,18 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Our Agents | Local Land & Farm Realtors in Gettysburg, PA">
 <meta property="og:description" content="The licensed local agents behind Keystone Homes & Land — farm, land and historic-property specialists serving Gettysburg and Adams County, PA.">
+<meta property="og:site_name" content="Keystone Homes & Land">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/agents.html">
+<meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/Cumberland_Valley_Pennsylvania.jpg?width=1200">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Agents | Local Land & Farm Realtors in Gettysburg, PA">
+<meta name="twitter:description" content="The licensed local agents behind Keystone Homes & Land — farm, land and historic-property specialists serving Gettysburg and Adams County, PA.">
+<meta name="twitter:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/Cumberland_Valley_Pennsylvania.jpg?width=1200">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 
 <script type="application/ld+json">
@@ -23,7 +33,7 @@
   "@id":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/#agency",
   "name":"Keystone Homes & Land",
   "url":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/agents.html",
-  "image":"https://matthummel-pa.github.io/realtor-keystone-homes-and-land-theme/preview.jpg",
+  "image":"https://commons.wikimedia.org/wiki/Special:FilePath/Cumberland_Valley_Pennsylvania.jpg?width=1200",
   "telephone":"+1-717-555-0455",
   "email":"land@keystonehomesandland.test",
   "priceRange":"$$",
@@ -103,12 +113,12 @@
       <a class="btn btn-primary btn-sm" href="guide.html#schedule">Book a Call</a>
     </div>
 
-    <button class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+    <button type="button" class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
   </div>
 
-  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
     <a href="index.html">Home</a>
     <a href="listings.html">Listings</a>
     <a href="areas.html">Areas We Serve</a>
@@ -131,6 +141,7 @@
 <!-- ============================= PAGE HERO ============================= -->
 <section class="page-hero">
   <div class="page-hero-inner">
+    <p class="hero-brand">Keystone Homes &amp; Land</p>
     <p class="hero-eyebrow">Meet The Team</p>
     <h1>Local agents who walk <em>the fence lines with you</em></h1>
     <p>Every agent at Keystone Homes &amp; Land is licensed in Pennsylvania and rooted in Adams County. We don't guess at zoning maps from an office two counties away — we grew up on these roads.</p>
@@ -234,7 +245,7 @@
         </div>
       </div>
       <div>
-        <h5>Office</h5>
+        <h2 class="footer-heading">Office</h2>
         <address>
           Keystone Homes &amp; Land<br>
           455 Old Harrisburg Road<br>
@@ -244,11 +255,11 @@
         </address>
       </div>
       <div>
-        <h5>Hours</h5>
+        <h2 class="footer-heading">Hours</h2>
         <p>Mon–Fri: 8:30am – 5:30pm<br>Saturday: 9:00am – 1:00pm<br>Sunday: By appointment</p>
       </div>
       <div>
-        <h5>Quick Links</h5>
+        <h2 class="footer-heading">Quick links</h2>
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="listings.html">Listings</a></li>
@@ -271,17 +282,17 @@
 </footer>
 
 <!-- ============================= CHAT WIDGET (SHARED) ============================= -->
-<button class="chat-fab" id="chatFab" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatWidget">
+<button type="button" class="chat-fab" id="chatFab" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatWidget">
   <svg viewBox="0 0 24 24" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
 </button>
-<div class="chat-widget" id="chatWidget" role="dialog" aria-label="Keystone chat assistant" aria-hidden="true">
+<div class="chat-widget" id="chatWidget" role="dialog" aria-modal="true" aria-labelledby="chatTitle" aria-hidden="true" hidden>
   <div class="chat-head">
-    <div><strong>Keystone Assistant</strong><br><span>Usually replies in minutes</span></div>
-    <button class="chat-close" id="chatCloseBtn" aria-label="Close chat">
+    <div><strong id="chatTitle">Keystone Assistant</strong><br><span>Usually replies in minutes</span></div>
+    <button type="button" class="chat-close" id="chatCloseBtn" aria-label="Close chat">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
   </div>
-  <div class="chat-body" id="chatBody">
+  <div class="chat-body" id="chatBody" aria-live="polite" aria-relevant="additions">
     <div class="chat-msg bot">Hi! I'm the Keystone concept assistant. Ask me about listings, financing, or booking a tour.</div>
   </div>
   <div class="chat-quick" id="chatQuick">
@@ -292,7 +303,7 @@
   </div>
 </div>
 
-<a href="#" class="concept-badge">Concept · Ridges &amp; Valleys Studio</a>
+<a href="https://ridgesandvalleys.com" class="concept-badge" rel="noopener">Concept · Ridges &amp; Valleys Studio</a>
 
 <script src="main.js" defer></script>
 </body>
