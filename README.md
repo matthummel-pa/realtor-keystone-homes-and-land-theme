@@ -9,6 +9,12 @@ Self-initiated **land & farms realtor** concept by [Ridges & Valleys Studio](htt
 
 ![Homepage hero — traditional home photography and forest CTAs](docs/screenshots/01-hero.png)
 
+## About
+
+Keystone Homes & Land is a land-and-farms brokerage concept for Adams County buyers who need more than a city condo search. We focus on acreage, townships, and rural parcels — with map listings, clear filters, and tools to book a showing before you leave the page.
+
+Built by [Ridges & Valleys Studio](https://ridgesandvalleys.com) in Gettysburg as a self-initiated, fully clickable demo — not a paid client project. The brand, listings, and numbers are illustrative so local agencies can see how a land-first realtor site could work.
+
 ---
 
 ## Concept page copy
